@@ -1,0 +1,11 @@
+body {
+	font-family: 'Inconsolata', monospace;
+}
+
+p, h1, iframe, .btn {	
+	margin-top: 24px;
+}
+
+p, .btn {
+	font-size: 18px;
+}
