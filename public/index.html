@@ -32,20 +32,25 @@
 
   </head>
   <body>
-    <div class="container">
-       <div class="col-sm-offset-2 col-sm-8">          
+    <div class="container" style="margin-bottom: 80px">
 
-          <h1>Kutte Ki Maut</h1>
+        <img width="470" src="https://firebasestorage.googleapis.com/v0/b/kutte-ki-maut.appspot.com/o/kutte_ki_maut_logo.png?alt=media&token=6df601f8-3896-44a7-9a86-6d3251dce707" class="center-block"/>
+
+       <div class="col-sm-offset-2 col-sm-8">          
      
           <p>
-            Kutte Ki Maut is a hindi alt rock band from Bangalore, India. We've just released our first single, "Nikamma". We hope you enjoy listening to it as much as we enjoyed making it.
+            Kutte Ki Maut is a hindi alt rock band from Bangalore, India. We hope you enjoy listening these songs as much as we enjoyed making them.
           </p>
 
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/265893525&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-         
-          <a class="btn btn-default" id="download" href="https://firebasestorage.googleapis.com/v0/b/kutte-ki-maut.appspot.com/o/Nikamma.mp3?alt=media&token=d1073b43-e132-4ba1-beac-bebbcbbc7e6b" role="button">Download</a>
+          <h3 id="Nikamma" style="margin-top:32px">Nikamma</h3>
 
-          <p>
+          <iframe style="margin-top:16px"width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/265893525&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+          <h3 id="Jo_Hoga">Jo Hoga</h3>
+
+          <iframe width="100%" style="margin-top:16px" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/280276835&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+          <p style="margin-top:32px">
             <i>Thanks for listening! 
             <br>
             With gratitude, 
@@ -53,7 +58,7 @@
             Anup, GD, Shubham and Steve</i>
           </p>  
 
-          <p>
+          <p style="margin-top:32px">
             P.S. Wanna hear from us when we put out new songs? <a id="mailchimp" href="http://eepurl.com/cbH_Xz" target="_blank">Join our fan list!</a>
           </p>          
       </div>
@@ -61,10 +66,6 @@
 
     <!-- Mipanel event tracking code -->
     <script>
-      $('#download').on('click', function(event) {
-          mixpanel.track("Nikamma download");
-      });
-
       mixpanel.track("Homepage visit");
 
       mixpanel.track_links('#mailchimp', 'Mailchimp link click');
